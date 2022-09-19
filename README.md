@@ -21,4 +21,7 @@ You can execute junit5 suites (for example: java/suites/TestSuite.java) with the
 After parallel execution of tests, report is generated in reports folder:
 ![image](https://user-images.githubusercontent.com/39560502/191049301-763c3768-844c-4e1f-99cd-718c00d44995.png)
 
+# Test Data
+Data for each test is retrieved from resources/data
+
 
