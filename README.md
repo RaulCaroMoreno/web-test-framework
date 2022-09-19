@@ -10,7 +10,7 @@ It uses Junit5 (annotations, suites, concurrent executions...), Maven, Java and 
 # Configuration
 Under resources/regression.properties you can choose:
 
-1. The URL of the Selenium HUB in order to execute. By default port 4444  example: http:/localhost:4444/wd/hub
+1. The URL of the Selenium HUB in order to execute parallel tests. By default port 4444  example: http:/localhost:4444/wd/hub
 2. Which browser You want to use: edge, firefox or chrome
 3. Url of the site you want to test. For example: https://www.saucedemo.com/
 
