@@ -15,7 +15,7 @@ Under resources/regression.properties you can choose:
 3. Url of the site you want to test. For example: https://www.saucedemo.com/
 
 # How to run it
-You can execute junit5 suites (for example: java/suites/TestSuite.java) with the following maven command "test -DtestSuite=Suite". All test are executed in parallel.
+You can execute junit5 suites (for example: java/suites/TestSuite.java) with the following maven command "mvn test -DtestSuite=TestSuite". All test are executed in parallel.
 
 # Reports
 After parallel execution of tests, report is generated in reports folder:
